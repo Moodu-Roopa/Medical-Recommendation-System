@@ -1,4 +1,5 @@
 🩺 Medical Recommendation System
+
 A machine learning-based system that recommends medical treatments or classifications based on input symptoms or patient data. It compares the performance of multiple classifiers like Naive Bayes, Random Forest, and SVM to assist in health-related decision-making.
 This is an AI-powered web application that predicts diseases based on user-provided symptoms and offers **personalized health recommendations**, including **precautions**, **medications**, **diets**, and **workouts**. The system uses a machine learning model (SVM) and is built with Python and Flask.
 
@@ -35,16 +36,23 @@ This is an AI-powered web application that predicts diseases based on user-provi
 python -m venv venv
 
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+
 2. Install Required Packages
+
 pip install -r requirements.txt
+
 3. Run the Flask App
+
 python main.py
+
 4. Access the App
+
 Open your browser and visit:
 http://127.0.0.1:5000/
 
 
 📊 Model Details
+
 Model Type: Support Vector Classifier (SVC)
 
 Input: Binary vector of symptoms (0/1)
@@ -61,6 +69,7 @@ Click the mic button and say your symptoms (e.g., "itching, fever, cough").
 🙋‍♀️ Developer
 Moodu Roopa
 AI/ML Engineer | Data Scientist | Healthcare Technologist
+
 📧 moodroopa1169@gmail.com
 
 📍 Hyderabad, Telangana, India
