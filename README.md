@@ -31,7 +31,9 @@ This is an AI-powered web application that predicts diseases based on user-provi
 
 ## 🚀 How to Run the Project
 1. Create a Virtual Environment (Optional but Recommended)
+
 python -m venv venv
+
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 2. Install Required Packages
 pip install -r requirements.txt
@@ -41,34 +43,6 @@ python main.py
 Open your browser and visit:
 http://127.0.0.1:5000/
 
-📁 Project Structure
-📦 medicine-recommendation-system
-├── DATASET/
-│   ├── description.csv
-│   ├── diets.csv
-│   ├── medications.csv
-│   ├── precautions_df.csv
-│   ├── symtoms_df.csv
-│   ├── workout_df.csv
-│   └── Training.csv
-│
-├── models/
-│   └── svc.pkl                  ← Trained SVM model
-│
-├── static/
-│   └── img.png                  ← Site logo or assets
-│
-├── templates/
-│   ├── index.html               ← Main UI
-│   ├── about.html
-│   ├── contact.html
-│   ├── developer.html
-│   └── blog.html
-│
-├── main.py                      ← Flask backend server
-├── Medical_Recommendation.ipynb ← Model training notebook
-├── requirements.txt             ← Required Python packages
-└── README.md                    ← You're reading this!
 
 📊 Model Details
 Model Type: Support Vector Classifier (SVC)
@@ -81,12 +55,14 @@ Training Data: Training.csv (symptoms → disease)
 
 🎤 Speech-to-Text Input
 The app supports speech recognition via webkitSpeechRecognition (Chrome only).
+
 Click the mic button and say your symptoms (e.g., "itching, fever, cough").
 
 🙋‍♀️ Developer
 Moodu Roopa
 AI/ML Engineer | Data Scientist | Healthcare Technologist
 📧 moodroopa1169@gmail.com
+
 📍 Hyderabad, Telangana, India
 
 📢 Acknowledgements
